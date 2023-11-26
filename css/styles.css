@@ -511,10 +511,6 @@ main {
     gap: 24px;
 }
 
-.subscribe-p {
-    margin-bottom: 0;
-}
-
 .form-input {
     width: 264px;
     height: 40px;
@@ -545,6 +541,7 @@ main {
     border: none;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    font-weight: 500;
 }
 
 .subscribe-icon {
@@ -575,8 +572,7 @@ main {
  pointer-events: auto;
 }
 
-
-.modal-container {
+.modal-window {
     width: 408px;
     min-height: 584px;
     border-radius: 4px;
