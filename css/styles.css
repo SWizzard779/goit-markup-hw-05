@@ -657,8 +657,8 @@ main {
     margin-bottom: 8px;
 }
 
-.contact-position:hover,
-.contact-position:focus {
+.contact-position input:hover,
+.contact-position input:focus {
     fill: #4D5AE5;
     border: 1px solid #4D5AE5;
     border-radius: 4px;
@@ -749,6 +749,8 @@ main {
 }
 
 .checkbox-icon {
+    display: none;
+    margin-right: 8px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -756,27 +758,31 @@ main {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: transparent;
-    
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: none;
 }
 
 .privacy-link {
     color: #4D5AE5;
     text-decoration: underline;
 
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input:checked + label > .checkbox-icon {
+#user-privacy:checked + .priv-label .checkbox-icon {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
-
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    border 250ms cubic-bezier;
 }
 
 .send-btn {
