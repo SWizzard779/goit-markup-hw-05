@@ -486,12 +486,7 @@ main {
 }
 
 .subscription-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 16px;
-    margin: 100px auto 132px 80px;
+    margin-left: auto;
 }
 
 .subscription-form {
