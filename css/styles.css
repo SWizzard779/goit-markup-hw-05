@@ -677,7 +677,7 @@ main {
     border-color: #4D5AE5;
 }
 
-.contact-input:focus .contact-icon {
+.contact-input:focus + .contact-icon {
     fill: #4D5AE5;
 }
 
