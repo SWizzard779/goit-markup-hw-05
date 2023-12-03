@@ -486,6 +486,11 @@ main {
 }
 
 .subscription-container {
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
     margin-left: auto;
 }
 
